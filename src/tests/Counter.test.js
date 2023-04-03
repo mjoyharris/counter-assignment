@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import Counter from "./counter";
+import Counter from "../components/counter";
 
 test("renders counter message", () => {
   render(<Counter />);
